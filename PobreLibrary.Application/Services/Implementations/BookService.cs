@@ -47,7 +47,6 @@ public class BookService : IBookService
         var findedBook = _dbContext.Books.SingleOrDefault(book => book.Id.Equals(id));
 
         if (findedBook == null) return null;
-        
 
         return new BookDetailsViewModel(
             findedBook.Title,
@@ -74,9 +73,11 @@ public class BookService : IBookService
         return newBook.Id;
     }
 
-    public void Update(int id, UpdateBookInputModel inputModel)
+    public bool Update(int id, UpdateBookInputModel inputModel)
     {
         var findedBook = _dbContext.Books.SingleOrDefault(book => book.Id.Equals(id));
+
+        if (findedBook == null) return false;
         
         findedBook.Update(
             inputModel.Title,
@@ -85,14 +86,19 @@ public class BookService : IBookService
         );
         
         _dbContext.SaveChanges();
+
+        return true;
     }
 
-    public void Delete(int id)
+    public bool Delete(int id)
     {
         var findedBook = _dbContext.Books.SingleOrDefault(book => book.Id.Equals(id));
 
+        if (findedBook == null) return false;
+
         _dbContext.Books.Remove(findedBook);
-        
         _dbContext.SaveChanges();
+
+        return true;
     }
 }

@@ -43,11 +43,14 @@ public class Startup
         app.UseRouting();
     
         app.UseAuthorization();
+        
+        AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true); // Habilita a configuração de envio de dados do tipo DateTime
     
         app.UseEndpoints(endpoints =>
         {
             endpoints.MapControllers();
         });
+        
     }
 
 }

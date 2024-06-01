@@ -7,6 +7,6 @@ public interface IBookService
     List<BookViewModel> GetAll();
     BookDetailsViewModel GetById(int id);
     int Create(CreateBookInputModel inputModel);
-    void Update(int id, UpdateBookInputModel inputModel);
-    void Delete(int id);
+    bool Update(int id, UpdateBookInputModel inputModel);
+    bool Delete(int id);
 }

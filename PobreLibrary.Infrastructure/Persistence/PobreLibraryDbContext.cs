@@ -10,7 +10,6 @@ public class PobreLibraryDbContext : DbContext
 
     public PobreLibraryDbContext(DbContextOptions<PobreLibraryDbContext> options) : base(options)
     {
-        
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -34,37 +34,39 @@ public class BookController : ControllerBase
             return NotFound();
         }
         
-        return Ok();
+        return Ok(book);
     }
 
     [HttpPost] // Por padrão o body da request já cai no post, ou seja, no parâmetro
-    public IActionResult Create(CreateBookInputModel inputModel)
+    public IActionResult Create([FromBody] CreateBookInputModel inputModel) 
     {
-        // Console.WriteLine(inputModel);
-        // if (inputModel.Title.Length > 50)
-        // {
-        //     return BadRequest();
-        // 
-        
-        Console.WriteLine(inputModel);
-        
+        if (inputModel.Title.Length > 50)
+        {
+            return BadRequest();
+        }
 
-        // var newBookId = _bookService.Create(inputModel);
+        var idBook = _bookService.Create(inputModel);
 
-        return NoContent();
-
-        // return CreatedAtAction(nameof(GetById), new { id = newBookId }, inputModel);
+        return CreatedAtAction(nameof(GetById), new { id = idBook }, inputModel);
     }
 
     [HttpPut("{id}")]
     public IActionResult Update(int id, [FromBody] UpdateBookInputModel inputModel)
     {
+        var findedBook = _bookService.Update(id, inputModel);
+
+        if (!findedBook) return NotFound();
+        
         return NoContent();
     }
 
     [HttpDelete("{id}")]
     public IActionResult Delete(int id)
     {
+        var findedBook = _bookService.Delete(id);
+
+        if (!findedBook) NotFound();
+        
         return NoContent();
     }
 }

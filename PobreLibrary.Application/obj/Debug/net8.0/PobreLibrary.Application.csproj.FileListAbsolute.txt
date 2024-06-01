@@ -14,4 +14,4 @@
 /home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Application/obj/Debug/net8.0/refint/PobreLibrary.Application.dll
 /home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Application/obj/Debug/net8.0/PobreLibrary.Application.pdb
 /home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Application/obj/Debug/net8.0/ref/PobreLibrary.Application.dll
-/home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Application/obj/Debug/net8.0/PobreLibrary.Application.csproj.CopyComplete
+/home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Application/obj/Debug/net8.0/PobreLib.EDD3CFC9.Up2Date
