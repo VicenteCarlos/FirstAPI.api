@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "S+B5Go2P4mG8HluMwZ8vr46RayMzIGqkPbkho0JX/g0=",
+  "Source": "PobreLibrary.API",
+  "BasePath": "_content/PobreLibrary.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

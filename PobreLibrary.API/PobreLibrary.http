@@ -1,0 +1,6 @@
+@PobreLibrary_HostAddress = http://localhost:5062
+
+GET {{PobreLibrary_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

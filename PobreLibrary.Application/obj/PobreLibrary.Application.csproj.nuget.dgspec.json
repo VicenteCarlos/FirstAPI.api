@@ -1,0 +1,204 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Application/PobreLibrary.Application.csproj": {}
+  },
+  "projects": {
+    "/home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Application/PobreLibrary.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Application/PobreLibrary.Application.csproj",
+        "projectName": "PobreLibrary.Application",
+        "projectPath": "/home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Application/PobreLibrary.Application.csproj",
+        "packagesPath": "/home/vicente-carlos/.nuget/packages/",
+        "outputPath": "/home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vicente-carlos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Core/PobreLibrary.Core.csproj": {
+                "projectPath": "/home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Core/PobreLibrary.Core.csproj"
+              },
+              "/home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Infrastructure/PobreLibrary.Infrastructure.csproj": {
+                "projectPath": "/home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Infrastructure/PobreLibrary.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/vicente-carlos/.dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Core/PobreLibrary.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Core/PobreLibrary.Core.csproj",
+        "projectName": "PobreLibrary.Core",
+        "projectPath": "/home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Core/PobreLibrary.Core.csproj",
+        "packagesPath": "/home/vicente-carlos/.nuget/packages/",
+        "outputPath": "/home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vicente-carlos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/vicente-carlos/.dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Infrastructure/PobreLibrary.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Infrastructure/PobreLibrary.Infrastructure.csproj",
+        "projectName": "PobreLibrary.Infrastructure",
+        "projectPath": "/home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Infrastructure/PobreLibrary.Infrastructure.csproj",
+        "packagesPath": "/home/vicente-carlos/.nuget/packages/",
+        "outputPath": "/home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vicente-carlos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Core/PobreLibrary.Core.csproj": {
+                "projectPath": "/home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Core/PobreLibrary.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Aspire.Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameWorkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameWorkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Pomelo.EntityFrameworkCore.Mysql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/vicente-carlos/.dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

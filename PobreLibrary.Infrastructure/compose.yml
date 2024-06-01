@@ -1,0 +1,17 @@
+services:
+  pobrelibrary-db:
+    image: postgres:16.2
+    environment:
+      POSTGRES_DATABASE: pobre-library
+      POSTGRES_USER: compose-postgres
+      POSTGRES_PASSWORD: compose-postgres
+    networks:
+      - custom_network
+
+networks:
+  custom_network:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.25.0.0/16
