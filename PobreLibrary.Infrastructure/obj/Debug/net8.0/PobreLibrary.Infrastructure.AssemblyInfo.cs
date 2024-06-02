@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PobreLibrary.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a18f01d70e07b61b288212ac1464a4c810f03e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4751c873ea01db452208aa0fd5d63c2a5c09c5f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("PobreLibrary.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PobreLibrary.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

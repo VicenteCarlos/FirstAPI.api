@@ -12,7 +12,7 @@ using PobreLibrary.Infrastructure.Persistence;
 namespace PobreLibrary.Infrastructure.Persistence.Migrations
 {
     [DbContext(typeof(PobreLibraryDbContext))]
-    [Migration("20240601024351_InitialMigration")]
+    [Migration("20240602050929_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
@@ -51,9 +51,15 @@ namespace PobreLibrary.Infrastructure.Persistence.Migrations
                     b.Property<DateTime>("PublicationDate")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<int>("Status")
+                        .HasColumnType("integer");
+
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("text");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
 
                     b.HasKey("Id");
 

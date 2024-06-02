@@ -15,3 +15,4 @@
 /home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Infrastructure/obj/Debug/net8.0/PobreLibrary.Infrastructure.genruntimeconfig.cache
 /home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Infrastructure/obj/Debug/net8.0/ref/PobreLibrary.Infrastructure.dll
 /home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Infrastructure/obj/Debug/net8.0/PobreLib.6146E35E.Up2Date
+/home/vicente-carlos/Documentos/Estudos e Projetos/C# Projetos/PobreLibrary/PobreLibrary.Infrastructure/obj/Debug/net8.0/PobreLibrary.Infrastructure.sourcelink.json
